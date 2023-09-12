@@ -1,0 +1,76 @@
+body{
+  background-color: #1F1B24;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-size: 48px;
+  text-align: center;
+}
+
+label{
+  display: block;
+}
+
+input{
+  background-color: #2d2d2d;
+  padding: 6px;
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+  color: #fff;
+}
+
+button{
+  background-color: #bb86fc;
+  color: #000;
+  border-radius: 5px;
+  border-width: 0;
+  padding-block: 8px;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #242424;
+  padding: 15px;
+  width: 320px;
+  border-radius: 10px;
+  display: grid;
+  gap: 30px;
+}
+
+.btnContainer{
+  display: grid;
+  grid-template-areas: 
+  'sort reset'
+  'get get';
+  gap: 10px;
+}
+
+#sortBtn{
+  grid-area: sort;
+}
+
+#resetBtn{
+  grid-area: reset;
+}
+
+#getSortingBtn{
+  grid-area: get;
+}
+
+#saveBtn{
+  height: 32px;
+  align-self: flex-end;
+}
+
+#resultBox {
+  height: 32px;
+}

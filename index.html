@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Сортировка пузырьком</title>
+</head>
+<body>
+  <h1>Сортировка пузырьком</h1>
+  <section>
+    <div class="card">
+      <label for="inputNums">Введите числа через запятую для сортировки или идентификатор сортировки</label>
+      <input id="inputNums" type="text" />
+      <div class="btnContainer">
+        <button id="sortBtn">Сортировать</button>
+        <button id="resetBtn">Очистить</button>
+        <button id="getSortingBtn">Получить отсортированный массив</button>
+      </div>
+    </div>
+    <div class="card">
+      <label for="resultBox">Результат: </label>
+      <div id="resultBox"></div>
+      <button id="saveBtn">Сохранить</button>
+      <span id="sortingIdRes"></span>
+    </div>
+  </section>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
